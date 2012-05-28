@@ -4,9 +4,26 @@
   padding: 10px;
 }
 
-@media (min-width: 768px) {
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
   #main {
     width: 50%;
     margin: 0 0 0 50%;
+  }
+}
+
+@media (min-width: 980px) {
+  #main {
+    width: 30%;
+    margin: 0 0 0 65%;
   }
 }
