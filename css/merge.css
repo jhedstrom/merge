@@ -17,6 +17,8 @@ h1,h2,h3 {
 }
 
 section {
+  padding-top: 25%;
+  margin-bottom: 100%;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
