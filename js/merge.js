@@ -2,6 +2,7 @@ $(function() {
   $.vegas('slideshow', {
     backgrounds: [
       {src: 'img/both.jpg', valign: 'center'},
+      {src: 'img/woods.jpg', valign: 'center'},
       {src: 'img/sarah.jpg', valign: 'top'},
       {src: 'img/jonathan.jpg', valign: 'top'}
     ],
