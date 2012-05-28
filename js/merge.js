@@ -8,7 +8,7 @@ $(function() {
     ],
     preload: true
   })
-  ('overlay', {src: 'js/vegas/overlays/13.png'});
+  ('overlay', {src: 'js/vegas/overlays/01.png'});
 
   $('.navbar').scrollspy();
 });
