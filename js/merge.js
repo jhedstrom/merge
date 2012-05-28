@@ -7,4 +7,6 @@ $(function() {
     preload: true
   })
   ('overlay', {src: '/js/vegas/overlays/06.png'});
+
+  $('.navbar').scrollspy();
 });
