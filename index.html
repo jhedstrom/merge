@@ -10,6 +10,7 @@
     <!-- Le styles -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/js/vegas/jquery.vegas.css" rel="stylesheet" />
+    <link href="/css/merge.css" rel="stylesheet" />
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -29,9 +30,9 @@
     <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
-  <body>
+  <body data-spy="scroll">
 
-    <div class="navbar navbar-fixed-top">
+    <div id="navbar" class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -41,9 +42,8 @@
           </a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="#top">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -52,7 +52,9 @@
 
     <div class="container">
 
-      <h1>Sarah &amp; Jonathan, August 1-5, 2012</h1>
+      <h1 id="top">Sarah &amp; Jonathan, August 1-5, 2012</h1>
+
+      <h2 id="about">About</h2>
 
     </div> <!-- /container -->
 
