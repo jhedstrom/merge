@@ -193,6 +193,20 @@
     <script src="js/vegas/jquery.vegas.js"></script>
     <script src="js/merge.js"></script>
     <script type="text/javascript">
+      $(function () {
+        $.vegas('slideshow', {
+          backgrounds: [
+            {src: 'img/both.jpg', valign: 'center'},
+            {src: 'img/woods.jpg', valign: 'bottom'},
+            {src: 'img/sarah.jpg', valign: 'top'},
+            {src: 'img/jonathan.jpg', valign: 'top'}
+          ],
+          preload: true
+        })
+        ('overlay', {src: 'js/vegas/overlays/01.png'});
+      });
+    </script>
+    <script type="text/javascript">
 
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-32177085-1']);
