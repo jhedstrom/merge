@@ -8,6 +8,9 @@ h1 {
   text-align: center;
   margin-bottom: 20px;
 }
+h2 {
+  text-align: center;
+}
 h3 {
   text-align: center;
   margin-bottom: 15px;
@@ -44,7 +47,7 @@ a {
   }
 
   section {
-    padding-top: 27px;
+    padding-top: 77px;
     margin-bottom: 42px;
   }
 }
