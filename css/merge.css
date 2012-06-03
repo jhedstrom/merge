@@ -6,7 +6,6 @@
 
 h1 {
   text-align: center;
-  margin-bottom: 20px;
 }
 h2 {
   text-align: center;
@@ -31,6 +30,10 @@ a {
 
 .center {
   text-align: center;
+}
+
+p small {
+  color: #444;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
